@@ -1,0 +1,89 @@
+ion-content{
+    --background :#8dc63f;
+}
+.landing-items{
+    width: 69vw;
+    margin: auto;
+    margin-top: 14vh;
+}
+.landing-items .logo{
+
+}
+.landing-items .header{
+    display: inline-block;
+    width: 69vw;
+    margin-left: 5vw;
+}
+.landing-items .header .text{
+    font-size: 1.4rem;
+    display: inherit;
+    vertical-align: super;
+    color: #31265f;
+
+}
+.landing-items .header .name{
+    width: 30vw;
+    display: inherit
+
+}
+.landing-items .loader{
+    display: inline-block;
+    margin-top: 5vh; 
+}
+
+.landing-items .loader .box{
+    background-color: #ffffff;
+    height: 1.1em;
+    width: 1.1em;
+    margin-right: 2vw;
+    display: inherit;
+    opacity: 0;
+    
+}
+#a1{
+    animation: fade-1 2s 0s infinite;
+}
+#a2{
+    animation: fade-1 2s .2s infinite;
+}
+#a3{
+    animation: fade-1 2s .4s infinite;
+}
+#a4{
+    animation: fade-1 2s .6s infinite;
+}
+#a5{
+    animation: fade-1 2s .8s infinite;
+}
+#a6{
+    animation: fade-1 2s 1s infinite;
+}
+#a7{
+    animation: fade-1 2s 1.2s infinite;
+}
+#a8{
+    animation: fade-1 2s 1.4s infinite;
+}
+#a9{
+    animation: fade-1 2s 1.6s infinite;
+
+}
+
+#a10{
+    animation: fade-1 2s 1.8s infinite;
+}
+
+
+@keyframes fade-1 {
+	0% { opacity: 1;}
+    10% { opacity: 1;}
+    20% { opacity: .9;}
+    30% { opacity: .8;}
+    40% { opacity: .7;}
+    50% { opacity: .6;}
+    60% { opacity: .5;}
+    70% { opacity: .4;}
+    80% { opacity: .3;}
+    90% { opacity: .2;}
+    100% { opacity: .1;}
+}
